@@ -3,7 +3,18 @@ public class sample05{
     public static void main(String[] args)throws IOException{
         BufferedReader br = new BufferedReader(new InputStreamReader( System.in ) );
         System.out.print("数字を入力してください(1~12)：");
-        int month = Integer.parseInt(br.readLine());
+        int month = 0;
+        try {
+            month = Integer.parseInt(br.readLine());
+            if (month < 1 || month > 12) {
+                System.out.println("1から12の数字を入力してください。");
+                return;
+            }
+        } catch (NumberFormatException e) {
+            System.out.println("無効な入力です。数字を入力してください。");
+            return;
+        }
+        int i; //これの言及は無かった
 
         //入力された月の日数を表示
         switch(month){
@@ -45,6 +56,7 @@ public class sample05{
             break;
             default:
             System.out.println("1から12の数字を入力してください。");
+            break;
         }
 
         //入力された月の日本名を表示
