@@ -14,7 +14,6 @@ public class sample05{
             System.out.println("–³Œø‚È“ü—Í‚Å‚·B”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
             return;
         }
-        int i; //‚±‚ê‚ÌŒ¾‹y‚Í–³‚©‚Á‚½
 
         //“ü—Í‚³‚ê‚½Œ‚Ì“ú”‚ğ•\¦
         switch(month){
