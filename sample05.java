@@ -57,7 +57,5 @@ public class sample05{
             System.out.println("1‚©‚ç12‚Ì”š‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢B");
             break;
         }
-
-        //“ü—Í‚³‚ê‚½Œ‚Ì“ú–{–¼‚ğ•\¦
     }
 }
