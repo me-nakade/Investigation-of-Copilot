@@ -56,10 +56,7 @@ public class sample05{
             default:
             System.out.println("1から12の数字を入力してください。");
             break;
-        int month = Integer.parseInt(br.readLine());
-
-        //入力された月の日数を表示
-
+        }
         //入力された月の日本名を表示
         monthJapan(month);
     }
