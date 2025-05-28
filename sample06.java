@@ -3,20 +3,18 @@ public class sample06{
     public static void main(String[] args){
         //–¾“ú‚Ì“V‹C‚ğŠ¨‚Å—\‘z‚·‚é
         Random random = new Random();
-        int wheatherNumber = random.nextInt(5);
+        int weatherNumber = random.nextInt(5); 
         System.out.println("–¾“ú‚Ì“V‹C‚ğŠ¨‚Å—\‘z‚µ‚Ü‚·B");
-        if(wheatherNumber == 0){
+        if(weatherNumber == 0){ 
             System.out.println("‘½•ª°‚ê");
-        }else if(wheatherNumber == 1){
+        }else if(weatherNumber == 1){ 
             System.out.println("‘½•ª“Ü‚è");
-        }else if(wheatherNumber == 2){
+        }else if(weatherNumber == 2){ 
             System.out.println("‘½•ª‰J");
-        }else if(wheatherNumber == 3){
+        }else if(weatherNumber == 3){
             System.out.println("‘½•ªá");
-        }else if(wheatherNumber == 4){
-            System.out.println("‘½•ª‚İ‚¼‚ê");
         }else{
-            System.out.println("‘½•ª—‹‰J");
+            System.out.println("‘½•ª‚İ‚¼‚ê");
         }
     }
 }
