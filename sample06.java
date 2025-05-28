@@ -1,20 +1,20 @@
 import java.util.Random;
 public class sample06{
     public static void main(String[] args){
-        //–¾“ú‚Ì“V‹C‚ğŠ¨‚Å—\‘z‚·‚é
+        //æ˜æ—¥ã®å¤©æ°—ã‚’å‹˜ã§äºˆæƒ³ã™ã‚‹
         Random random = new Random();
         int weatherNumber = random.nextInt(5); 
-        System.out.println("–¾“ú‚Ì“V‹C‚ğŠ¨‚Å—\‘z‚µ‚Ü‚·B");
+        System.out.println("æ˜æ—¥ã®å¤©æ°—ã‚’å‹˜ã§äºˆæƒ³ã—ã¾ã™ã€‚");
         if(weatherNumber == 0){ 
-            System.out.println("‘½•ª°‚ê");
+            System.out.println("å¤šåˆ†æ™´ã‚Œ");
         }else if(weatherNumber == 1){ 
-            System.out.println("‘½•ª“Ü‚è");
+            System.out.println("å¤šåˆ†æ›‡ã‚Š");
         }else if(weatherNumber == 2){ 
-            System.out.println("‘½•ª‰J");
+            System.out.println("å¤šåˆ†é›¨");
         }else if(weatherNumber == 3){
-            System.out.println("‘½•ªá");
+            System.out.println("å¤šåˆ†é›ª");
         }else{
-            System.out.println("‘½•ª‚İ‚¼‚ê");
+            System.out.println("å¤šåˆ†ã¿ãã‚Œ");
         }
     }
 }
