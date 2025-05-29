@@ -12,5 +12,12 @@ public class Sample07 {
         } else {
             System.out.println("a + b ‚Í 5ˆÈã ‚Å‚Í‚ ‚è‚Ü‚¹‚ñB");
         }
+
+        //a-b‚ª0‚æ‚è‘å‚«‚¢‚©”»’è‚·‚é
+        if(a - b > 0){
+            System.out.println("a - b ‚Í 0‚æ‚è‘å‚«‚¢‚Å‚·B");
+        }else{
+            System.out.println("a - b ‚Í 0ˆÈ‰º‚Å‚·B");
+        }
     }
 }
