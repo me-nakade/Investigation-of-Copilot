@@ -9,7 +9,7 @@ public class sample06{
     }
 
     public static void predictWeather(int w){
-        String[] weather = {"晴れ", "曇り", "雨", "雪", "みぞれ"};
+        String[] weather = {"晴れ", "曇り", "雨", "雪", "雹"};
         System.out.println("多分" + weather[w]);
     }
 }
